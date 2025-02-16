@@ -4,15 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    color: $black-800;
 
-}
 
 $black-900: #14171F;
 $black-800: #292E3D;
@@ -29,6 +21,15 @@ $neutral50: #F6F8F7;
 $orange: #F9995D;
 $white: #FFFFFF;
 
+* {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: $black-800;
+
+}
 
 // 72px
 .jumbo {
@@ -182,4 +183,28 @@ $white: #FFFFFF;
 
 .bg-white {
     background-color: $white;
+}
+
+
+
+/* *************** FONT-WEIGHT *************** */
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+
+.fw-700 {
+    font-weight: 700 !important;
 }
