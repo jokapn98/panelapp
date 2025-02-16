@@ -1,5 +1,116 @@
 .footer {
     width: 100%;
-    height: 50vh;
+    min-height: 40vh;
     border: solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+    &-box {
+
+        max-width: 30%;
+
+        & img {
+            width: 100%;
+
+
+            @media (max-width: 765px) {
+                width: 70%;
+
+            }
+
+            @media (max-width: 576px) {
+                width: 100%;
+
+            }
+        }
+    }
+
+
+
+    &-i {
+        border: solid purple;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        min-height: 36vh;
+
+    }
+
+    &-info {
+        width: 90%;
+        border: solid green;
+        display: flex;
+
+
+
+        @media (max-width: 992px) {
+            width: 90%;
+
+        }
+
+        @media (max-width: 765px) {
+            width: 96%;
+            flex-direction: column;
+        }
+
+        &-main {
+            width: 55%;
+            border: solid pink;
+
+            &-group {
+
+                display: flex;
+
+                :nth-child(1) {
+
+                    width: 20%;
+                    margin: 10px 0;
+                }
+
+                :nth-child(2) {
+
+                    margin: 10px 0;
+                }
+
+            }
+
+
+
+            @media (max-width: 765px) {
+                width: 100%;
+            }
+
+
+        }
+
+        &-social {
+            width: 45%;
+            border: solid yellow;
+
+            @media (max-width: 765px) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.main-legacy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.legacy {
+
+    min-height: 4vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+
 }

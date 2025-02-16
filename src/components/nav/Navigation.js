@@ -16,32 +16,32 @@ const Navigation = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
   return (
-    <div className="nav bg-white">
-      <div className=" nav-main">
-        <div className=" nav-logo">
+    <div className="nav bg-white ">
+      <div className="nav-main">
+        <div className="nav-logo">
           <img src={Logo} alt="" />
         </div>
-        <div className="">
+        <div className="nav-links">
           {isMobile && <button onClick={handleToggle}>☰</button>}
           {(toggle || !isMobile) && (
             <ul>
               <ol>
-                <a className="c-black-900 fw-300" href="">
+                <a className="c-black-900 fw-300" href="https://example.com/">
                   Početna
                 </a>
               </ol>
               <ol>
-                <a className="c-black-900 fw-300" href="">
+                <a className="c-black-900 fw-300" href="https://example.com/">
                   Proizvodi
                 </a>
               </ol>
               <ol>
-                <a className="c-black-900 fw-300" href="">
+                <a className="c-black-900 fw-300" href="https://example.com/">
                   O nama
                 </a>
               </ol>
               <ol>
-                <a className="c-orange fw-600" href="">
+                <a className="c-orange fw-600" href="https://example.com/">
                   Kontakt
                 </a>
               </ol>
