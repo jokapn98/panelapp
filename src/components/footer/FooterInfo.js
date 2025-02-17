@@ -1,5 +1,9 @@
 import React from "react";
 import Logo from "../../assets/navbar/Logo.png";
+import Facebook from "../../assets/footer/Facebook.png";
+import Twitter from "../../assets/footer/Twitter.png";
+import Linkedin from "../../assets/footer/Linkedin.png";
+
 const FooterInfo = () => {
   return (
     <div className="footer-i">
@@ -20,10 +24,36 @@ const FooterInfo = () => {
             <div className="h5 fw-300 c-black-800"> hello@thebox.com</div>
           </div>
           <div className="footer-box">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="Site Logo" />
           </div>
         </div>
-        <div className="footer-info-social">r</div>
+        <div className="footer-info-social">
+          <div className="fw-400 c-purple-primary h5">NEWSLETTER:</div>
+          <div className="subscribe-part">
+            <label>
+              <input
+                className="p1 fw-300 c-neutral-300"
+                name="emailInput"
+                placeholder="Your email here"
+              />
+              <button className="p2 c-white bg-orange">Subscribe</button>
+            </label>
+          </div>
+          <div className="social-media-icons">
+            <div className="fw-400 c-purple-primary h5">SOCIAL:</div>
+            <div className="social-icons">
+              <a href="https://example.com">
+                <img src={Facebook} alt="Facebook Logo" />
+              </a>
+              <a href="https://example.com">
+                <img src={Twitter} alt="Twitter Logo" />
+              </a>
+              <a href="https://example.com">
+                <img src={Linkedin} alt="Linkedin Logo" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
