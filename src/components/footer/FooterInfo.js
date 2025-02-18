@@ -6,9 +6,12 @@ import Linkedin from "../../assets/footer/Linkedin.png";
 
 const FooterInfo = () => {
   return (
-    <div className="footer-i">
-      <div className="footer-info">
+    <div className="footer-i ">
+      <div className="footer-info ">
         <div className="footer-info-main">
+          <div className="footer-box">
+            <img src={Logo} alt="Site Logo" />
+          </div>
           <div className="footer-info-main-group">
             <div className="fw-400 c-purple-primary h5">ADRESA:</div>
             <div className="h5 fw-300 c-black-800">
@@ -23,20 +26,20 @@ const FooterInfo = () => {
             <div className="fw-400 c-purple-primary h5">EMAIL:</div>
             <div className="h5 fw-300 c-black-800"> hello@thebox.com</div>
           </div>
-          <div className="footer-box">
-            <img src={Logo} alt="Site Logo" />
-          </div>
         </div>
-        <div className="footer-info-social">
-          <div className="fw-400 c-purple-primary h5">NEWSLETTER:</div>
+        <div className="footer-info-social ">
+          <div className="divider bg-neutral-500"></div>
+          <div className="fw-400 c-purple-primary h5">
+            PRIJAVI SE NA E-POSTU:
+          </div>
           <div className="subscribe-part">
             <label>
               <input
-                className="p1 fw-300 c-neutral-300"
+                className="p2 fw-300 c-neutral-300"
                 name="emailInput"
                 placeholder="Your email here"
               />
-              <button className="p2 c-white bg-orange">Subscribe</button>
+              <button className="p2 c-white bg-orange">Prijavi se</button>
             </label>
           </div>
           <div className="social-media-icons">
