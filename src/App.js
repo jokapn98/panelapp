@@ -1,11 +1,13 @@
 import "./App.css";
-import Layout from "./components/layout/Layout";
-
+import HomePage from "./pages/HomePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <Layout />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
