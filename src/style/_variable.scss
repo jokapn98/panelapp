@@ -1,239 +1,232 @@
 .bred {
-    border: solid red;
+  border: solid red;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-
-$black-900: #14171F;
-$black-800: #292E3D;
-$black-700: #3D445C;
-$purple-primary: #2947A9;
-$purple-secondary: #3559C7;
-$neutral-600: #525B7A;
+$black-900: #14171f;
+$black-800: #292e3d;
+$black-700: #3d445c;
+$purple-primary: #2947a9;
+$purple-secondary: #3559c7;
+$neutral-600: #525b7a;
 $neutral-500: #667299;
-$neutral-400: #858EAD;
-$neutral-300: #A3AAC2;
-$neutral-200: #C2C7D6;
-$neutral-100: #E0E3EB;
-$neutral50: #F6F8F7;
-$orange: #F9995D;
-$white: #FFFFFF;
+$neutral-400: #858ead;
+$neutral-300: #a3aac2;
+$neutral-200: #c2c7d6;
+$neutral-100: #e0e3eb;
+$neutral50: #f6f8f7;
+$orange: #f9995d;
+$white: #ffffff;
 
 * {
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.125rem;
-    color: $black-800;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: $black-800;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
-    @media (max-width: 992px) {
-
-        font-size: 0.875rem;
-    }
-
+  @media (max-width: 992px) {
+    font-size: 0.875rem;
+  }
 }
 
 // 72px
 .jumbo {
-    font-size: 4.5rem !important;
+  font-size: 4.5rem !important;
 }
 
 // 60px
 .h1 {
-    font-size: 3.75rem !important;
+  font-size: 3.75rem !important;
 }
 
 // 36px
 .h2 {
-    font-size: 2.25rem !important;
+  font-size: 2.25rem !important;
 }
 
 // 30px
 .h3 {
-    font-size: 1.875rem !important;
+  font-size: 1.875rem !important;
 }
 
 // 24px
 .h4 {
-    font-size: 1.5rem !important;
+  font-size: 1.5rem !important;
 }
 
 // 20px
 .h5 {
-    font-size: 1.1rem !important;
+  font-size: 1.1rem !important;
 
-    @media (max-width: 1200px) {
-        font-size: 0.9rem !important;
-    }
+  @media (max-width: 1200px) {
+    font-size: 0.9rem !important;
+  }
 
-    @media (max-width: 992px) {
-        font-size: 0.9rem !important;
-    }
+  @media (max-width: 992px) {
+    font-size: 0.9rem !important;
+  }
 
-    @media (max-width: 576px) {
-        font-size: 0.8rem !important;
-    }
+  @media (max-width: 576px) {
+    font-size: 0.8rem !important;
+  }
 }
 
 // 18px (default)
 .p1 {
-    font-size: 1.125rem !important;
+  font-size: 1.125rem !important;
 }
 
 // 16px
 .p2 {
-    font-size: 1rem !important;
+  font-size: 1rem !important;
 
-    @media (max-width: 756px) {
-        font-size: 0.8rem !important;
-    }
+  @media (max-width: 756px) {
+    font-size: 0.8rem !important;
+  }
 }
 
 // Text color classes
 .c-black-900 {
-    color: $black-900;
+  color: $black-900;
 }
 
 .c-black-800 {
-    color: $black-800;
+  color: $black-800;
 }
 
 .c-black-700 {
-    color: $black-700;
+  color: $black-700;
 }
 
 .c-purple-primary {
-    color: $purple-primary;
+  color: $purple-primary;
 }
 
 .c-purple-secondary {
-    color: $purple-secondary;
+  color: $purple-secondary;
 }
 
 .c-neutral-600 {
-    color: $neutral-600;
+  color: $neutral-600;
 }
 
 .c-neutral-500 {
-    color: $neutral-500;
+  color: $neutral-500;
 }
 
 .c-neutral-400 {
-    color: $neutral-400;
+  color: $neutral-400;
 }
 
 .c-neutral-300 {
-    color: $neutral-300;
+  color: $neutral-300;
 }
 
 .c-neutral-200 {
-    color: $neutral-200;
+  color: $neutral-200;
 }
 
 .c-neutral-100 {
-    color: $neutral-100;
+  color: $neutral-100;
 }
 
 .c-neutral50 {
-    color: $neutral50;
+  color: $neutral50;
 }
 
 .c-orange {
-    color: $orange;
+  color: $orange;
 }
 
 .c-white {
-    color: $white;
+  color: $white !important;
 }
 
 // Background color classes
 .bg-black-900 {
-    background-color: $black-900;
+  background-color: $black-900;
 }
 
 .bg-black-800 {
-    background-color: $black-800;
+  background-color: $black-800;
 }
 
 .bg-black-700 {
-    background-color: $black-700;
+  background-color: $black-700;
 }
 
 .bg-purple-primary {
-    background-color: $purple-primary;
+  background-color: $purple-primary;
 }
 
 .bg-purple-secondary {
-    background-color: $purple-secondary;
+  background-color: $purple-secondary;
 }
 
 .bg-neutral-600 {
-    background-color: $neutral-600;
+  background-color: $neutral-600;
 }
 
 .bg-neutral-500 {
-    background-color: $neutral-500;
+  background-color: $neutral-500;
 }
 
 .bg-neutral-400 {
-    background-color: $neutral-400;
+  background-color: $neutral-400;
 }
 
 .bg-neutral-300 {
-    background-color: $neutral-300;
+  background-color: $neutral-300;
 }
 
 .bg-neutral-200 {
-    background-color: $neutral-200;
+  background-color: $neutral-200;
 }
 
 .bg-neutral-100 {
-    background-color: $neutral-100;
+  background-color: $neutral-100;
 }
 
 .bg-neutral50 {
-    background-color: $neutral50;
+  background-color: $neutral50;
 }
 
 .bg-orange {
-    background-color: $orange;
+  background-color: $orange;
 }
 
 .bg-white {
-    background-color: $white;
+  background-color: $white;
 }
-
-
 
 /* *************** FONT-WEIGHT *************** */
 .fw-300 {
-    font-weight: 300 !important;
+  font-weight: 300 !important;
 }
 
 .fw-400 {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
 .fw-500 {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .fw-600 {
-    font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 
-
 .fw-700 {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 .horizontal-divider {
-    width: 2px;
-    height: 100%;
+  width: 2px;
+  height: 100%;
 }

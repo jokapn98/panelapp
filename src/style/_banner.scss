@@ -1,64 +1,84 @@
 .bann {
-    width: 100%;
-    min-height: 85vh;
-    border: solid green;
-    background-image: url("../assets/home/Banner.png");
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 100% 100%;
-    background-position: center;
+  width: 100%;
+  min-height: 85vh;
+  border: solid green;
+  background-image: url("../assets/home/Banner.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+  &-heading {
+    height: 50vh;
+    border: solid blue;
     display: flex;
-    flex-direction: column;
+    align-items: end;
+    @media (max-width: 765px) {
+      text-align: center;
+      margin: 0 !important;
+      justify-content: center;
+    }
+    p {
+      margin-left: 10%;
+      @media (max-width: 765px) {
+        text-align: center;
+        margin: 0 !important;
+        justify-content: center;
+      }
+    }
+  }
 
-    &-heading {
-        height: 50vh;
-        border: solid blue;
-        display: flex;
-        align-items: end;
-
-        p {
-            margin-left: 10%;
-        }
+  &-widget {
+    height: 40vh;
+    width: 100%;
+    border: solid red;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    @media (max-width: 765px) {
+      justify-content: center;
     }
 
-    &-widget {
-        height: 40vh;
+    &-main {
+      width: 40%;
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 765px) {
+        width: 60%;
+      }
+      @media (max-width: 576px) {
+        width: 80%;
+      }
+    }
+
+    &-top {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    &-bottom {
+      height: 20%;
+      display: flex;
+
+      &-arrowbtn {
         width: 100%;
-        border: solid red;
+        border-radius: 0;
+        border: none;
         display: flex;
-        align-items: end;
-        justify-content: end;
-
-        &-main {
-            width: 30%;
-            height: 60%;
-            display: flex;
-            flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        :nth-child(1) {
+          color: white;
+          font-size: 22px;
+          margin: 0 5px;
         }
-
-        &-top {
-            height: 80%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        &-bottom {
-            height: 20%;
-            display: flex;
-
-            &-leftbtn {
-                width: 100%;
-                border-radius: 0;
-                border: none;
-            }
-
-            &-rightbtn {
-                width: 100%;
-                border-radius: 0;
-                border: none;
-            }
-        }
+      }
     }
+  }
 }

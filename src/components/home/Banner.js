@@ -1,4 +1,6 @@
 import React from "react";
+import { GoArrowLeft } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
 
 const Banner = () => {
   return (
@@ -18,12 +20,12 @@ const Banner = () => {
             </p>
           </div>
           <div className="bann-widget-bottom">
-            <button className="bann-widget-bottom-leftbtn bg-black-800 c-white">
-              1
+            <button className="bann-widget-bottom-arrowbtn bg-black-800 c-white">
+              <GoArrowLeft /> Back
             </button>
             <div className=" bg-white horizontal-divider"></div>
-            <button className="bann-widget-bottom-rightbtn bg-black-800 c-white">
-              2
+            <button className="bann-widget-bottom-arrowbtn bg-black-800 c-white">
+              Next <GoArrowRight />
             </button>
           </div>
         </div>
