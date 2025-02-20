@@ -1,7 +1,6 @@
 .bann {
   width: 100%;
   min-height: 85vh;
-  border: solid green;
   background-image: url("../assets/home/Banner.png");
   background-repeat: no-repeat;
   display: block;
@@ -12,7 +11,6 @@
 
   &-heading {
     height: 50vh;
-    border: solid blue;
     display: flex;
     align-items: end;
     @media (max-width: 765px) {
@@ -33,7 +31,6 @@
   &-widget {
     height: 40vh;
     width: 100%;
-    border: solid red;
     display: flex;
     align-items: end;
     justify-content: end;

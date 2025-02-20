@@ -1,4 +1,5 @@
 import "./App.css";
+import Reputation from "./components/reputation/Reputation";
 import HomePage from "./pages/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
